@@ -1,0 +1,121 @@
+.mainWrapper {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        "pt pt pt pt st st st"
+        "pw pw pw pw sw sw sw"
+        "aw aw aw aw sw sw sw";
+    padding: 3rem 0;
+    grid-gap: 1.5rem;
+}
+
+.productsTitle {
+    grid-area: pt;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--tc-font2);
+    color: var(--tcText3);
+    text-transform: uppercase;
+}
+
+.productsWrapper {
+    grid-area: pw;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 2rem;
+}
+
+.productsWrapper > div {
+    padding: 1rem 0;
+
+}
+.productsWrapper > div:not(:last-child) {
+    border-bottom: 1px solid var(--tc-red);
+}
+
+
+
+.summaryTitle {
+    grid-area: st;
+    display: flex;
+    flex-direction: row;
+    color: var(--tcText3);
+    gap: 1rem;
+    margin: 0 0 0 1rem;
+    align-items: center;
+}
+
+.summaryTitle > :first-child {
+    height: 100%;
+    min-width: 3rem;
+}
+
+.summaryTitle  p {
+    font-weight: 500;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+    margin-bottom: 0;
+
+}
+
+.summaryWrapper {
+    grid-area: sw;
+    margin: 0 1rem;
+}
+
+
+
+.advantagesWrapper {
+    grid-area: aw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.advantagesWrapper > li {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+    max-width: 17.5rem;
+    height: 100%;
+}
+
+.advantagesWrapper img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.advantagesWrapper h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tcText3);
+}
+
+@media (max-width: 992px) {
+    .mainWrapper {
+        grid-template-areas:
+            "pt"
+            "pw"
+            "st"
+            "sw"
+            "aw";
+    }
+
+    .summaryTitle {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantagesWrapper {
+        grid-template-columns: 1fr;
+    }
+}

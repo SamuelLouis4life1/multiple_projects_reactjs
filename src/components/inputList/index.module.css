@@ -1,0 +1,15 @@
+.mainContainer,
+.mainContainer table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer tbody tr td:last-child,
+.mainContainer table tbody tr td:last-child{
+    width: 42px;
+}
+
+.mainContainer tbody tr td:first-child{
+    padding-right: 20px;
+}

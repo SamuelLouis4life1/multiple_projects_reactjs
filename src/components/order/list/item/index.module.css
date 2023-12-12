@@ -1,0 +1,25 @@
+.pill{
+    border: 2px solid #E0E0E0;
+    padding: 1em;
+    text-transform: uppercase;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb),var(--bs-text-opacity)) !important;
+}
+.pill1{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb),var(--bs-text-opacity)) !important;
+    border: 2px solid #0dcaf0;
+}
+.pill2{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb),var(--bs-text-opacity)) !important;
+    border: 2px solid #198754;
+}
+
+.invoiceTotal{
+    background-color: #E0E0E0;
+}
+
+.invoiceTotal table{
+    display: contents;
+}

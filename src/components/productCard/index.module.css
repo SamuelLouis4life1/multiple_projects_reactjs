@@ -1,0 +1,42 @@
+.cardBorder {
+	border-radius: 10px !important;
+	box-shadow: 0 0 1em #c0c0c0;
+}
+
+.header {
+	padding-top: 1em;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+	background-color: var(--tc-blue); /*#68af85*/
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.textMiddle {
+	margin-bottom: 0px;
+	padding: 0px;
+    line-height: 100%;
+}
+
+.textBottom {
+	align-self: flex-end;
+	margin: 0px 0px -4px 0px;
+}
+
+.textTop {
+	align-self: flex-start;
+	margin: 0px;
+}
+
+.emphasize {
+	font-family: var(--tc-font2);
+	font-size: 60;
+}
+
+@media (min-width: 375px) {
+	.emphasize {
+		font-size: 54px;
+	}
+}

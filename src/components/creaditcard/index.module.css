@@ -1,0 +1,22 @@
+.container{
+    padding: 1em;
+    background-color: #E0E0E0;
+    font-family: var(--tc-font3) !important;
+}
+
+.title{
+    font-family: var(--tc-font2);
+    font-weight: 600;
+    color: var(--tc-red);
+}
+
+.required{
+    color: var(--tc-red);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.inptIcon{
+    background-color: white !important;
+    color: var(--tc-red) !important;
+}

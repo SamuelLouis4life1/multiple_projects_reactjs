@@ -1,0 +1,128 @@
+.rowTop {
+    margin-bottom: 7rem !important;
+}
+
+.leftBox{
+    width: 50%;
+    min-height: 500px;
+    border-radius: 25px;
+    background-color: var(--tc-light-blue);
+}
+
+.leftBox table{
+    height: 100%;
+    margin: auto;
+}
+
+.leftBox .carousel{
+    width: 400px;
+}
+
+.rightBox{
+    width: 40%;
+    min-height: 450px;
+    margin: 25px 0px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 0 1em #c0c0c0;
+    position: relative;
+    right: 3%;
+    padding: 30px 60px;
+}
+
+.coverage {
+	font-family: var(--tc-font2);
+	color: var(--tc-blue);
+    opacity: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.tcBlueDark{
+    color: var(--tc-blue);
+    filter: brightness(85%);
+}
+
+.tcBlueMediumLight{
+    color: var(--tc-blue);
+    opacity: 60%;
+}
+
+.hrBlue{
+    border-color: var(--tc-ligth-blue);
+
+}
+
+.textMiddle {
+	margin-bottom: 0px;
+	padding: 0px;
+    line-height: 100%;
+}
+
+.textBottom {
+	align-self: flex-end;
+	margin: 0px 0px -4px 0px;
+}
+
+.textTop {
+	align-self: flex-start;
+	margin: 0px;
+}
+
+.emphasize {
+	font-family: var(--tc-font2);
+}
+
+.btnQty,
+.btnQty:disabled,
+.btnQty:hover,
+.btnQty:focus{
+    height: 20px;
+    margin: 0px 1em !important;
+    padding: 0px !important;
+    background-color: transparent !important;
+    border: 0px !important;
+    color: var(--tc-blue) !important;
+    filter: brightness(85%) !important;
+    box-shadow: none !important;
+}
+
+.vMiddle{
+    margin: auto 0px;
+}
+
+.plansFeatures {
+    padding: 4rem 1rem !important;
+    background: #ebe8e8;
+}
+
+.plansFeatures h3 {
+    font-weight: bolder !important;
+    font-size: 2rem !important;
+}
+
+.cardImgTop {
+    margin: 1rem;
+    width: 2rem;
+}
+
+.cards {
+    border: none !important;
+    box-shadow: #c72424 !important;
+    border-radius: 2% !important;
+}
+
+.cardsTitle {
+    font-weight: bolder !important;
+    font-size: 2rem !important;
+}
+
+.cardsFeatures {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}

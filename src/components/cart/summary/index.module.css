@@ -1,0 +1,30 @@
+.wrapper {
+    padding: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.wrapper h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wrapper span {
+    font-weight: bold;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.shipping {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-content: center;
+    font-weight: bold;
+}

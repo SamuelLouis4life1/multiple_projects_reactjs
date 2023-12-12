@@ -1,0 +1,69 @@
+.title,
+.title2
+.title3{
+    font-family: var(--tc-font2);
+    font-weight: 600;
+    color: #212529;
+}
+
+.title2{
+    color: var(--tc-red);
+}
+
+.required{
+    color: var(--tc-red);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.labelAutoRenewal label
+.aboutAutoRenewal{
+    font-family: var(--tc-font3) !important;
+}
+
+.aboutAutoRenewal{
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.aboutAutoRenewal a{
+    color: var(--tc-red);
+    text-decoration: none;
+}
+.orderTable tr {
+    border-width: 0 1px 1px 1px;
+    border-color: #cbccce;
+}
+
+.orderTable tr:first-child {
+    border-top-width: 1px;
+}
+
+.orderTable tr td:first-child{
+    width: 50%;
+}
+
+.orderTable td {
+    border: none;
+}
+
+.orderTableHighlight{
+    background-color: var(--tcBackground4);
+    color: var(--tcText2);
+}
+
+.orderTable p{
+    margin: 0px;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.trSecondary {
+    border-bottom-color: white !important;
+}
+
+.acceptArea {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,48 @@
+.title,
+.title2
+.title3{
+    font-family: var(--tc-font2);
+    font-weight: 600;
+    color: #212529;
+}
+
+.title2{
+    color: var(--tc-red);
+}
+
+.required{
+    color: var(--tc-red);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.labelAutoRenewal label
+.aboutAutoRenewal{
+    font-family: var(--tc-font3) !important;
+}
+
+.aboutAutoRenewal{
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.aboutAutoRenewal a{
+    color: var(--tc-red);
+    text-decoration: none;
+}
+
+.orderTable tr td:first-child{
+    width: 50%;
+}
+
+.orderTableHighlight{
+    background-color: var(--tc-light-blue);
+}
+
+.orderTable p{
+    margin: 0px;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
