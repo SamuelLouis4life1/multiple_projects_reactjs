@@ -5,6 +5,7 @@ import RequiredAuth from "./utils/requiredAuth";
 
 //#region Public Pages
 import Home from "./pages/public/home";
+import HomeProduct from "./pages/public/homeProduct";
 import NotFound from "./pages/public/errors/notFound";
 import SignIn from "./pages/public/auth/signIn";
 import PasswordReset from "./pages/public/auth/passwordReset";
@@ -50,9 +51,9 @@ const PageRoutes = [
 			footer: false,
 			breadcrumb: false,
 			sidebar: false,
-			title: "Health - Telecall",
+			title: "Health - Ecommerce App",
 		},
-		element: <span>Telecall is Healthy!</span>,
+		element: <span>Ecommerce App is Healthy!</span>,
 	},
 	{
 		path: "",
@@ -62,7 +63,7 @@ const PageRoutes = [
 			footer: true,
 			breadcrumb: true,
 			sidebar: false,
-			title: "Telecall",
+			title: "Ecommerce App",
 		},
 		element: <Home />,
 		children: [
@@ -77,6 +78,11 @@ const PageRoutes = [
 						element: <ProductDetail />,
 					},
 				],
+			},
+			{
+				path: "homeproducts",
+				name: "homeproducts",
+				element: <HomeProduct />,
 			},
 			{
 				path: "cart",
@@ -101,7 +107,7 @@ const PageRoutes = [
 					footer: false,
 					breadcrumb: false,
 					sidebar: false,
-					title: "Telecall",
+					title: "Ecommerce App",
 				},
 				children: [
 					{
@@ -153,7 +159,7 @@ const PageRoutes = [
 											header: false,
 											footer: false,
 											breadcrumb: false,
-											title: "nf - Telecall",
+											title: "nf - Ecommerce App",
 										},
 										element: <InvoicePage />
 									}
@@ -243,7 +249,7 @@ const PageRoutes = [
 					footer: false,
 					breadcrumb: false,
 					sidebar: false,
-					title: "Telecall",
+					title: "Ecommerce App",
 				},
 				element: <EmailTemplate />,
 			},
