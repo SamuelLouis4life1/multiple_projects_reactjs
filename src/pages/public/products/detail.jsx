@@ -2,14 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button, Carousel, Card } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import {
-	FaAngleUp,
-	FaAngleDown,
-	FaPlusCircle,
-	FaMinusCircle,
-} from "react-icons/fa";
-
+import { FaAngleUp, FaAngleDown, FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 import styles from "./detail.module.css";
+
 
 export default function ProductDetail() {
 	const params = useParams();
@@ -28,7 +23,7 @@ export default function ProductDetail() {
 	useEffect(() => {
 		//getProductById(params.id);
 		var product = {
-			id: "5bd285f3-7ba8-4c53-8dde-8a99c5e110da",
+			//id: "5bd285f3-7ba8-4c53-8dde-8a99c5e110da",
 			name: "4GB",
 			price: 15.0,
 			limited: true,
@@ -371,6 +366,5 @@ export default function ProductDetail() {
 				</Col>
 			</Row>
 		</Container>
-
 	);
 }

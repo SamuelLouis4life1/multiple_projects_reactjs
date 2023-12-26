@@ -1,0 +1,231 @@
+.subcategory-modal-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header .btn-close {
+    width: 25px !important;
+    background-color: #26AAE2;
+    margin: 0.3rem !important;
+    margin-left: 96% !important;
+}
+
+.modal-footer {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    flex-wrap: nowrap !important;
+}
+
+.moda-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.modal-footer:first-child {
+    display: block !important;
+}
+
+.imgs-modal-suggest {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+.modal-body-container {
+    background-color: rgb(240, 240, 240);
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.modal-body-content {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.modal-body-subcontent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body-subcontent>div {
+    align-items: center;
+    justify-content: center !important;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+.modal-body-subcontent img {
+    width: 80px;
+    border-radius: 10%;
+    margin: 0 5px 0 -15px;
+}
+
+.modal-body-subcontent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px dashed #26AAE2;
+    border-top: 1px dashed #26AAE2;
+    padding: 2px;
+}
+
+.modal-body-subcontent2 svg {
+    height: 4rem;
+    width: 3rem !important;
+}
+
+.left-border p {
+    margin-bottom: 0 !important;
+}
+
+/* .modal-body-subcontent2 :first-child {
+    border-left: 1px dashed #26AAE2;
+} */
+
+.modal-body-subcontent-centered {
+    text-align: center;
+}
+
+.modal-body-subcontent2 img {
+    height: 80px;
+    width: 100%;
+}
+
+.modal-marginAjust {
+    margin-left: 20px;
+}
+
+.play-now {
+    background-color: #26AAE2 !important;
+    margin: 15px;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.modal-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img-svg-modal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.img-svg-modal>svg {
+    width: 50px;
+    height: 30px;
+}
+
+.img-svg>img {
+    width: 50px;
+    height: 30px;
+}
+
+.imgs-games-modal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.img-games-modal {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+.read-more-state {
+    display: none;
+}
+
+.modal-body-subcontent-details ul {
+    padding-left: 0;
+}
+
+.read-more-target {
+    display: none;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked~.read-more-wrap .read-more-target {
+    display: block;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state~.read-more-trigger:before {
+    content: 'Show more';
+}
+
+.read-more-state:checked~.read-more-trigger:before {
+    content: 'Show less';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: rgb(0, 0, 0);
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #26AAE2;
+    border-radius: .25em;
+}
+
+.details {
+    display: flex;
+}
+
+@media(max-width:768px) {
+    .read-more-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: start !important;
+        align-items: flex-start !important;
+        text-align: start !important;
+    }
+
+    .imgs-games-modal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .modal-body-subcontent2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    .modal-body-subcontent2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details {
+        margin-left: -20px;
+    }
+
+    .img-modal-body-subcontent {
+        width: 60px !important;
+    }
+
+    .imgs-games-modal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

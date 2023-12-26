@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    
+.cards-subcategory {
+    padding: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    cursor: pointer;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle-category {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.cardBorder-subcategory {
+    min-height: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.img-games-subcategory {
+    width: 100%;
+}
+
+.text-title-subcategory {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.card-video-subcategory {
+    height: 100%;
+}
+
+.cardBorder-subcategory > .card-video-subcategory {
+    display: none;
+  }
+  
+  .cardBorder-subcategory:hover > .card-video-subcategory {
+    display: block;
+  }
+  
+  .cardBorder-subcategory:hover > .text-title-subcategory {
+    display: none;
+  }
+
+.selected-category,
+pre {
+    font-family: 'Montserrat', sans-serif;
+    white-space: pre-wrap;
+    padding: 10px 40px;
+    font-family: 'Roboto' !important;
+    font-weight: 500 !important;
+}
+
+@media(max-width:768px) {
+    .cards-subcategory {
+        grid-template-columns: repeat(5, 1fr);
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:600px) {
+    .subtitle-category {
+        font-size: 2.5rem;
+        padding: 2rem 0;
+        font-family: Monserrat, sans-serif !important;
+    }
+
+    .cards-subcategory {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,64 @@
+.text-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  
+  .videos-cards-games {
+    background-size: cover;
+  }
+  
+  .cardBorder{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #26AAE2 !important;
+    min-height: 205px;
+    margin-left: 20px;
+  }
+  
+  .cardBorder:hover {
+    color: #26AAE2;
+    background-color: white !important;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    font-weight: normal !important;
+    font-size: 1.5rem !important;
+  }
+  
+  .cardBorder p{
+    font-size: 1.5rem !important;
+  }
+  
+  @media(max-width:1024px){ 
+    .cardBorder p{
+      font-size: 17px !important;
+    }
+  }
+  @media(max-width:912px){ 
+    .cardBorder p{
+      font-size: 17px !important;
+      font-weight: bolder;
+    }
+  }
+  
+  @media(max-width:820px){ 
+    .cardBorder p{
+      font-size: 14px !important;
+      font-weight: bolder;
+    }
+  }
+  
+  @media(max-width:768px) {
+    .cardBorder p{
+      font-size: 14px !important;
+      font-weight: bolder;
+    }
+  }
+  
+  @media(max-width:600px) {
+    .cardBorder p{
+      font-size: 25px !important;
+      font-weight: normal;
+    }
+  }

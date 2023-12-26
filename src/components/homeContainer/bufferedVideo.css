@@ -1,0 +1,57 @@
+.video-wrapper {
+    position: relative;
+    line-height: 0;
+    width: 100%;
+  }
+  
+  .video-wrapper > video {
+    width: 100%;
+    background-color: black;
+  }
+  
+  .video-cover {
+    height: 100% !important;
+    object-fit: cover;
+  }
+  
+  
+  .video-mute-btn {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    border-radius: 40%;
+    position: absolute;
+    padding: 0.5rem 0.7rem;
+    z-index: 999;
+  }
+  
+  .video-mute-btn:hover {
+    background-color: #26AAE2;
+    opacity: 1;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  
+  .video-loader {
+    animation: spin 1s linear infinite;
+    border-radius: 50%;
+    border: calc(60px * 0.05) solid #26AAE2;
+    border-left-color: transparent;
+    color: transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+  }

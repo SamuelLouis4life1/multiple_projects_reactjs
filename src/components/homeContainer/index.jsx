@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Row, Col } from "react-bootstrap";
 import ProductCard from "../productCard";
+import { withTranslation } from "react-i18next";
+import Card from "./Card";
+import CategoryCard from "./categoryCard"
+import "./cardsContainer.css";
 
-export default function ProductsContainer({ groupLimit = 4, products = [] }) {
-	const groupProducts = (products = []) => {
+
+export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
+	const [selectedCategory, setSelectedCategory] = useState()
+	const ref = useRef();
+
+	const groupCategories = () => {
 		let grouped = [[]];
 
 		let count = 0;
@@ -11,40 +19,73 @@ export default function ProductsContainer({ groupLimit = 4, products = [] }) {
 
 		groupLimit = groupLimit >= 1 && groupLimit <= 12 ? groupLimit : 4;
 
-		while (count < products.length) {
+		while (count < categories.length) {
 			if (count > 0 && count % groupLimit === 0) {
 				i++;
 				grouped[i] = [];
 			}
-			grouped[i].push(products[count]);
+
+			grouped[i].push(categories[count]);
+
 			count++;
 		}
+
 		return grouped;
 	};
-  
-  	const [state] = useState({
-		grouped: groupProducts(products),
-	});
 
-	return state.grouped.map((group, i) => (
-		<Row
-			key={i}
-			className={group.length < groupLimit ? "justify-content-md-center" : ""}
-		>
-			{group.map((product) => (
-				<Col 
-					md={12 / groupLimit} 
-					key={product.id}>
-					<ProductCard
-						id={product.id}
-						limited={product.limited}
-						title={product.name}
-						price={product.price}
-						details={product.details}
-						footerText={`$${product.price * 3} por 3 meses de serviço for home`}
-					/>
-				</Col>
+	function handleSelectCategory(category) {
+
+		setSelectedCategory(category)
+		setTimeout(
+			() => {
+				window.scrollTo(0, ref.current.offsetTop - 80)
+			},
+			100
+		);
+	}
+
+
+	return (
+		<>
+			{groupCategories()?.map((group, i) => (
+				<Row
+					key={i}
+					className={group.length < groupLimit ? "justify-content-md-center" : ""}
+				>
+					{group.map((category) => (
+						<Col
+							md={12 / groupLimit}
+							key={category.id}>
+							<CategoryCard
+								maxMenuHeight={250}
+								title={category.title}
+								details={category.details}
+								onSelectSlide={() => handleSelectCategory(category)}
+							/>
+						</Col>
+					))}
+				</Row>
 			))}
-		</Row>
-	));
+			{
+				selectedCategory && (
+					<div className="container selected-category gtm_click_gamecategory" ref={ref} align="center">
+						<h1 className="subtitle-category"><pre>{t(selectedCategory.title)}</pre></h1>
+						{/* <p><pre>{t(selectedCategory.description)}</pre></p> */}
+						<section className="container cards-subcategory" align="center">
+							{
+								selectedCategory.Games.map((item) => (
+									<Card
+										key={item.id}
+										item={item}
+									/>
+								))
+							}
+						</section>
+					</div >
+				)
+			}
+		</>
+
+	);
 }
+export default withTranslation()(ProductsContainer)
