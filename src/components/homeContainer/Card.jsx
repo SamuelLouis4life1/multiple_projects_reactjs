@@ -3,18 +3,7 @@ import { Button, Card, CloseButton, Modal } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import "./cards.css";
 import "./cardsSubcategoryContents.css";
-// import Video from "../bufferedVideo";
-// import Footer from "../footer";
-// import {
-//   MultiPlayes,
-//   SinglePlayer,
-//   PlayabilityTwo,
-//   PlayabilityThree,
-//   PlayabilityFour,
-//   AvailabilityTwo,
-//   AvailabilityThree,
-//   AvailabilityFour
-// } from "../../utils/availabilityIcons"
+import Video from "./bufferedVideo";
 
 export default withTranslation()(({ t, item }) => {
 
@@ -22,9 +11,6 @@ export default withTranslation()(({ t, item }) => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const multiPlayes = item.players
-  const playability = item.playability
-  const availability = item.availability
 
   return (
     <>
@@ -33,7 +19,7 @@ export default withTranslation()(({ t, item }) => {
         onClick={handleShow}
         className="cardBorder-subcategory"
       >
-        {/* <Video
+        <Video
           className="card-video-subcategory"
           src={item.video}
           muted
@@ -41,7 +27,7 @@ export default withTranslation()(({ t, item }) => {
           cover
           preload="none"
           type="video/mp4"
-        /> */}
+        />
         <Card.Body className="text-title-subcategory gtm_click_game">
           <img className="img-games-subcategory" src={item.img} alt="" />
         </Card.Body>
@@ -53,14 +39,14 @@ export default withTranslation()(({ t, item }) => {
         onHide={handleClose}>
         <Modal.Header className="subcategory-modal-header">
           <CloseButton className="close-button-header" onClick={handleClose} />
-          {/* <Video
+          <Video
             src={item.modalVideo}
             autoPlay
             muted={true}
             audioButton={true}
             loop
             type="video/mp4"
-          /> */}
+          />
           <Modal.Title className="modal-title">{t(item.title)}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -91,7 +77,7 @@ export default withTranslation()(({ t, item }) => {
                 </div>
 
                 <div align="center">
-                    <p>{/* {multiPlayes == "Multi" ? <MultiPlayes /> : <SinglePlayer />} */}</p>
+                  <p>{/* {multiPlayes == "Multi" ? <MultiPlayes /> : <SinglePlayer />} */}</p>
                   <p className="modal-body-subcontent-centered">{t("games.players")}</p>
                 </div>
 
@@ -145,7 +131,6 @@ export default withTranslation()(({ t, item }) => {
         </Modal.Body>
         <Modal.Footer className="modal-footer">
           <Button variant="secondary" onClick={handleClose} className="modal-button">{t("games.close")}</Button>
-          {/* <Footer /> */}
         </Modal.Footer>
       </Modal>
     </>

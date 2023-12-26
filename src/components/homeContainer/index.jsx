@@ -70,7 +70,7 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 				selectedCategory && (
 					<div className="container selected-category gtm_click_gamecategory" ref={ref} align="center">
 						<h1 className="subtitle-category"><pre>{t(selectedCategory.title)}</pre></h1>
-						{/* <p><pre>{t(selectedCategory.description)}</pre></p> */}
+						<p><pre>{t(selectedCategory.description)}</pre></p>
 						<section className="container cards-subcategory" align="center">
 							{
 								selectedCategory.Games.map((item) => (
