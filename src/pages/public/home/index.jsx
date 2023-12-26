@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
 
 import { action, fighting, kids, multiplayer, platformer, puzzle, racing, retro, shooting, sport, strategy } from '../../../utils/gameInfo';
-
+import Download from "./component"
 
 export default function Home() {
     const { t } = useTranslation("home");
@@ -110,15 +110,17 @@ export default function Home() {
     
     const categoriesObjs = [
             {
+                id: "f1b7543c-590e-4949-b25c-5ac0ef3f6889",
                 title: "games.actionAdventure",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: action,
+                Games: <Download />,
             },
             {
+                id: "843762dc-8779-4624-9d1f-a54b3837b61f",
                 title: "games.sportRacing",
                 details: [
                     "Click & Play",
@@ -128,6 +130,7 @@ export default function Home() {
                 Games: racing,
             },
             {
+                id: "df1a5874-042c-499b-acfd-5a74334bdf3d",
                 title: "games.sports",
                 details: [
                     "Click & Play",
@@ -137,6 +140,7 @@ export default function Home() {
                 Games: sport,
             },
             {
+                id: "bbbb5cd3-230e-4b20-bc8a-76274bfef7e8",
                 title: "games.fightingArcade",
                 details: [
                     "Click & Play",
@@ -146,6 +150,7 @@ export default function Home() {
                 Games: fighting,
             },
             {
+                id: "0eac3ede-9347-49af-be62-036b6ac1f77c",
                 title: "games.kid",
                 details: [
                     "Click & Play",
@@ -155,6 +160,7 @@ export default function Home() {
                 Games: kids,
             },
             {
+                id: "d8227119-c86e-46e8-b449-46c7e0426e8c",
                 title: "games.logicPuzzle",
                 details: [
                     "Click & Play",
@@ -164,6 +170,7 @@ export default function Home() {
                 Games: puzzle,
             },
             {
+                id: "03fe7308-34d2-4623-b8c1-9c8afecb8d0a",
                 title: "games.multi",
                 details: [
                     "Click & Play",
@@ -173,6 +180,7 @@ export default function Home() {
                 Games: multiplayer,
             },
             {
+                id: "aa0b4342-b325-4e16-8d1d-061f07cc7230",
                 title: "games.platform",
                 details: [
                     "Click & Play",
@@ -182,6 +190,7 @@ export default function Home() {
                 Games: platformer,
             },
             {
+                id: "72d3bd33-9ce6-43a6-8ec1-b17b2b3c1452",
                 title: "games.retroClassic",
                 details: [
                     "Click & Play",
@@ -191,6 +200,7 @@ export default function Home() {
                 Games: retro,
             },
             {
+                id: "925f5059-89a0-4dd0-9f40-1099992ae70c",
                 title: "games.strategy",
                 details: [
                     "Click & Play",
@@ -200,6 +210,7 @@ export default function Home() {
                 Games: strategy,
             },
             {
+                id: "f2ce0fd1-c9ea-40bc-8ab5-175c0165e1e5",
                 title: "games.fpsShoot",
                 details: [
                     "Click & Play",

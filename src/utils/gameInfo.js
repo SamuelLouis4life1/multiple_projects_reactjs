@@ -1,5 +1,6 @@
 export const action = [
     {
+        id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         title: "games.action.rogueStormers.title",
         description1: "games.action.rogueStormers.description1",
         description2: "games.action.rogueStormers.description2",
@@ -24,6 +25,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "6384998a-742b-4d4f-9a47-12cedabe3db3",
         title: "games.action.boundByFlame.title",
         description1: "games.action.boundByFlame.description1",
         description2: "games.action.boundByFlame.description2",
@@ -48,6 +50,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "07b3852e-ff91-4ce6-b5f7-49b192358472",
         title: "games.action.lordsOfTheFallen.title",
         description1: "games.action.lordsOfTheFallen.description1",
         description2: "games.action.lordsOfTheFallen.description2",
@@ -72,6 +75,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "6dff7613-7037-4436-bb81-041b43a70aa3",
         title: "games.action.theTechnomancer.title",
         description1: "games.action.theTechnomancer.description1",
         description2: "games.action.theTechnomancer.description2",
@@ -96,6 +100,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "4f7bc3fd-ef4f-4937-8ebf-f1890906e19b",
         title: "games.action.fallback.title",
         description1: "games.action.fallback.description1",
         description2: "games.action.fallback.description2",
@@ -120,6 +125,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "61485825-2575-40f5-8904-84c2a14859c8",
         title: "games.action.marsWarLogs.title",
         description1: "games.action.marsWarLogs.description1",
         description2: "games.action.marsWarLogs.description2",
@@ -142,6 +148,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "33d290f7-29bb-426f-b04e-764ef19b2435",
         title: "games.action.sniperGhostWarrior3.title",
         description1: "games.action.sniperGhostWarrior3.description1",
         description2: "games.action.sniperGhostWarrior3.description2",
@@ -166,6 +173,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "efd8d34d-1954-4239-b064-f7971ff4548e",
         title: "games.action.modernCombat.title",
         description1: "games.action.modernCombat.description1",
         description2: "games.action.modernCombat.description2",
@@ -190,6 +198,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "3d2e0e8c-a8f1-40ef-afb0-8aacdbbc3842",
         title: "games.action.extinction.title",
         description1: "games.action.extinction.description1",
         description2: "games.action.extinction.description2",
@@ -214,6 +223,7 @@ export const action = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "5af8e258-060f-4880-a163-690097ff2b50",
         title: "games.action.styx.title",
         description1: "games.action.styx.description1",
         description2: "games.action.styx.description2",
@@ -242,6 +252,7 @@ export const action = [
 
 export const racing = [
     {   
+        id: "1d91cb4b-db8c-4bc0-a7eb-f7439aa9b928",
         title: "games.racing.asphalt9.title",
         description1: "games.racing.asphalt9.description1",
         description2: "games.racing.asphalt9.description2",
@@ -264,6 +275,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {       
+        id: "b6cf49fe-62cf-4bcb-91f6-05998bf69688",
         title: "games.racing.wrc7.title",
         description1: "games.racing.wrc7.description1",
         description2: "games.racing.wrc7.description2",
@@ -286,6 +298,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "3f54c953-3198-4766-84fa-73ebf6a7f029",
         title: "games.racing.motoRacer4.title",
         description1: "games.racing.motoRacer4.description1",
         description2: "games.racing.motoRacer4.description2",
@@ -310,6 +323,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "e616934a-68cd-42bc-a659-375f0ce8da2d",
         title: "games.racing.skyDrift.title",
         description1: "games.racing.skyDrift.description1",
         description2: "games.racing.skyDrift.description2",
@@ -334,6 +348,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "c2600a09-a6c3-4c16-85af-40ab267df8c8",
         title: "games.racing.offroadRacing.title",
         description1: "games.racing.offroadRacing.description1",
         description2: "games.racing.offroadRacing.description2",
@@ -358,6 +373,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "3a78baa9-dc97-4f7a-bffb-b55f556af806",
         title: "games.racing.allStar.title",
         description1: "games.racing.allStar.description1",
         description2: "games.racing.allStar.description2",
@@ -382,6 +398,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "5d4a87b9-b1b1-4e92-9747-d4c7a7cbcf75",
         title: "games.racing.streetHeat.title",
         description1: "games.racing.streetHeat.description1",
         description2: "games.racing.streetHeat.description2",
@@ -406,6 +423,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "287fa519-033d-49f3-8960-07657a3fa113",
         title: "games.racing.HorizonChase.title",
         description1: "games.racing.HorizonChase.description1",
         description2: "games.racing.HorizonChase.description2",
@@ -430,6 +448,7 @@ export const racing = [
         availability: "Computer&TV&Cell"
     },
     {
+        id: "dfbabc78-c410-4d99-ab79-0c7fb88d747c",
         title: "games.racing.garfieldKart.title",
         description1: "games.racing.garfieldKart.description1",
         description2: "games.racing.garfieldKart.description2",
@@ -454,6 +473,7 @@ export const racing = [
         availability: "Computer&TV"
     },
     {
+        id: "2b3babbb-b40b-4db3-b66b-9b44d025fcf2",
         title: "games.racing.aquaMoto.title",
         description1: "games.racing.aquaMoto.description1",
         description2: "games.racing.aquaMoto.description2",
