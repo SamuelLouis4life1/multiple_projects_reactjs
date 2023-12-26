@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
-import ProductsContainer from "../../../components/productsContainer";
-
+import HomeContainer from '../../../components/homeContainer'
 
 export default function Home() {
     const { t } = useTranslation("home");
@@ -17,7 +16,7 @@ export default function Home() {
         zipCode: "",
         products: [
             {
-                id: "5bd285f3-7ba8-4c53-8dde-8a99c5e110da",
+                id: "8216d379-9033-4632-bba3-2a657cf85008",
                 name: "4GB",
                 price: 15.0,
                 limited: true,
@@ -28,7 +27,7 @@ export default function Home() {
                 ],
             },
             {
-                id: "e17e6418-d81a-4d0a-a723-93088289a71d",
+                id: "249185c3-8c61-4779-84ce-06fda6c5c2ef",
                 name: "10GB",
                 price: 20.0,
                 limited: true,
@@ -39,7 +38,7 @@ export default function Home() {
                 ],
             },
             {
-                id: "228abeac-fa8e-4110-8010-4059533d1bb5",
+                id: "79e703b4-d1a0-40ae-8e26-728c78d5d7b9",
                 name: "15GB",
                 price: 25.0,
                 limited: true,
@@ -50,7 +49,7 @@ export default function Home() {
                 ],
             },
             {
-                id: "2c6ff17f-aad2-49b2-ab39-851dc38c1d9f",
+                id: "dd2af07e-22b3-4579-b4ce-b6c2a978597f",
                 name: "Unlimited",
                 price: 30.0,
                 limited: false,
@@ -61,7 +60,7 @@ export default function Home() {
                 ],
             },
             {
-                id: "5bd285f3-7ba8-4c53-8dde-8a99c5e110da",
+                id: "704dcb00-3d43-4a7b-802e-8494f057b311",
                 name: "6GB",
                 price: 18.0,
                 limited: true,
@@ -72,7 +71,18 @@ export default function Home() {
                 ],
             },
             {
-                id: "e17e6418-d81a-4d0a-a723-93088289a71d",
+                id: "3a53de81-a49f-48d9-81ce-db377e04f062",
+                name: "12GB",
+                price: 22.0,
+                limited: true,
+                details: [
+                    "Conversa e texto ilimitado",
+                    "Cobertura nacional",
+                    "Usa 5G ou 4G LTE, o que for mais forte",
+                ],
+            },
+            {
+                id: "ef832762-7f9a-4748-a6a2-966f12f7199a",
                 name: "12GB",
                 price: 22.0,
                 limited: true,
@@ -158,7 +168,7 @@ export default function Home() {
                                 <p>{t("Our new offer allows you to try us for 3 months at our lowest possible price.")}</p>
                             </Col>
                         </Row>
-                        <ProductsContainer products={state.products} />
+                        <HomeContainer products={state.products} />
                     </Col>
                 </Row>
             </Container>
