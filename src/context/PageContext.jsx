@@ -3,12 +3,14 @@ import Breadcrumb from "../components/layouts/breadcrumb";
 import Footer from "../components/layouts/footer";
 import Header from "../components/layouts/header";
 import Sidebar from "../components/layouts/sidebar";
+import SettingButton from "../components/layouts/settingButton";
 import styles from "./PageContext.module.css";
 
 export const PageSettingsContext = createContext();
 
 export function PageSettingsProvider({ children }) {
   const [pageHeader, setPageHeader] = useState(true);
+  const [pageSettingButton, setpageSettingButton] = useState(true);
   const [pageFooter, setPageFooter] = useState(true);
   const [pageSidebar, setPageSidebar] = useState(true);
   const [pageBreadcrumb, setPageBreadcrumb] = useState(true);
@@ -28,6 +30,7 @@ export function PageSettingsProvider({ children }) {
               </div>
             </div>
 
+            { pageSettingButton && <SettingButton />}
             { pageFooter && <Footer />}
         </div>
     </PageSettingsContext.Provider>
