@@ -3,9 +3,7 @@ import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "reac
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
-
 import { action, fighting, kids, multiplayer, platformer, puzzle, racing, retro, shooting, sport, strategy } from '../../../utils/gameInfo';
-import Download from "./component.jsx"
 
 export default function Home() {
     const { t } = useTranslation("home");

@@ -5,7 +5,7 @@ import { withTranslation } from "react-i18next";
 import Card from "./Card";
 import CategoryCard from "./categoryCard"
 import "./cardsContainer.css";
-
+import { Link } from "react-router-dom";
 
 export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 	const [selectedCategory, setSelectedCategory] = useState()
@@ -16,7 +16,6 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 
 		let count = 0;
 		let i = 0;
-
 		groupLimit = groupLimit >= 1 && groupLimit <= 12 ? groupLimit : 4;
 
 		while (count < categories.length) {
@@ -24,9 +23,7 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 				i++;
 				grouped[i] = [];
 			}
-
 			grouped[i].push(categories[count]);
-
 			count++;
 		}
 
@@ -43,7 +40,6 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 			100
 		);
 	}
-
 
 	return (
 		<>
@@ -74,10 +70,15 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 						<section className="container cards-subcategory" align="center">
 							{
 								selectedCategory.Games.map((item) => (
-									<Card
-										key={item.id}
-										item={item}
-									/>
+									<div className="d-grid gap-2">
+										<Link className="btn btn-primary lg" to={item.path}>
+											{t("See Details")}
+										</Link>
+									</div>
+									// <Card
+									// 	key={item.id}
+									// 	item={item}
+									// />
 								))
 							}
 						</section>

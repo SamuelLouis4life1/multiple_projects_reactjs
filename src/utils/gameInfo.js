@@ -1,6 +1,7 @@
 export const action = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        path: "multiple/calculator",
         title: "games.action.rogueStormers.title",
         description1: "games.action.rogueStormers.description1",
         description2: "games.action.rogueStormers.description2",
@@ -26,6 +27,7 @@ export const action = [
     },
     {
         id: "6384998a-742b-4d4f-9a47-12cedabe3db3",
+        path: "multiple/weather",
         title: "games.action.boundByFlame.title",
         description1: "games.action.boundByFlame.description1",
         description2: "games.action.boundByFlame.description2",
@@ -51,6 +53,7 @@ export const action = [
     },
     {
         id: "07b3852e-ff91-4ce6-b5f7-49b192358472",
+        path: "multiple/account",
         title: "games.action.lordsOfTheFallen.title",
         description1: "games.action.lordsOfTheFallen.description1",
         description2: "games.action.lordsOfTheFallen.description2",

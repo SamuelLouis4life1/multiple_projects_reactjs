@@ -43,6 +43,12 @@ import RouteElement from "./components/routeElement";
 import AdminUsers from "./pages/admin/users";
 //#endregion
 
+//region Multiple Projects
+import CalculatorApp from "./pages/public/multipleProjects/calculatorApp"
+import WeatherApp from "./pages/public/multipleProjects/weatherApp"
+
+//#endregion
+
 const PageRoutes = [
 	{
 		path: "/health/live",
@@ -135,6 +141,39 @@ const PageRoutes = [
 					},
 				],
 			},
+
+			//#region Multiple project Pages
+			{
+				path: "multiple",
+				name: "multiple",
+				pageSettings: {
+					header: true,
+					footer: true,
+					breadcrumb: true,
+					sidebar: false,
+					title: "Multiple project",
+				},
+				children: [
+					{
+						path: "calculator",
+						name: "calculator",
+						element: <CalculatorApp />,
+					},
+					{
+						path: "weather",
+						name: "weather",
+						element: <WeatherApp />,
+					},
+					{
+						path: "",
+						name: "",
+						element: <ResetPassword />,
+					},
+				],
+			},
+
+			//#region
+
 			//#region Customer Pages
 			{
 				roles: [USER_ROLES.CUSTOMER],
