@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { Row, Col } from "react-bootstrap";
-import ProductCard from "../productCard";
 import { withTranslation } from "react-i18next";
 import Card from "./Card";
 import CategoryCard from "./categoryCard"
@@ -71,14 +70,13 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 							{
 								selectedCategory.Games.map((item) => (
 									<div className="d-grid gap-2">
-										<Link className="btn btn-primary lg" to={item.path}>
-											{t("See Details")}
+										<Link className="" to={item.path}>
+											<Card
+												key={item.id}
+												item={item}
+											/>
 										</Link>
 									</div>
-									// <Card
-									// 	key={item.id}
-									// 	item={item}
-									// />
 								))
 							}
 						</section>
