@@ -10,7 +10,7 @@ export const action = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/weather",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -19,7 +19,7 @@ export const action = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/todo-list",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",

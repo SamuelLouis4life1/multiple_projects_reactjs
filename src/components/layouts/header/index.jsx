@@ -50,9 +50,6 @@ export default function Header() {
 				<div className={styles.headerTop}>
 					<Container fluid="xxl" className={styles.headerTopCointainer}>
 						<div>
-							{t("6 MONTHS FREE SERVICE When You Buy a Phone + 6 Month Plan")} <Link to="/">{t("Learn More")}</Link>
-						</div>
-						<div>
 							<Link to={activeUrl}>
 								{t("Activate")} <BsPhone />
 							</Link>

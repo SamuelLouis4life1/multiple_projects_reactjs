@@ -46,6 +46,7 @@ import AdminUsers from "./pages/admin/users";
 //region Multiple Projects
 import CalculatorApp from "./pages/public/multipleProjects/calculatorApp"
 import WeatherApp from "./pages/public/multipleProjects/weatherApp"
+import TodoList from "./pages/public/multipleProjects/todoList"
 
 //#endregion
 
@@ -165,9 +166,9 @@ const PageRoutes = [
 						element: <WeatherApp />,
 					},
 					{
-						path: "",
-						name: "",
-						element: <ResetPassword />,
+						path: "todo-list",
+						name: "todolist",
+						element: <TodoList />,
 					},
 				],
 			},
