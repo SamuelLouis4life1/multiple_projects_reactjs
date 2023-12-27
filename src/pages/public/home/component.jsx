@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 //import { HashLink } from "react-router-hash-link";
-import appleImg from "../imgs/apple.png"
+//import appleImg from "../imgs/apple.png"
 
 export function Download(props) {
 

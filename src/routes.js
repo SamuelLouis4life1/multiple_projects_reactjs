@@ -5,7 +5,8 @@ import RequiredAuth from "./utils/requiredAuth";
 
 //#region Public Pages
 import Home from "./pages/public/home";
-import HomeProduct from "./pages/public/homeProduct";
+import HomeIndex from "./pages/public/home";
+import HomeDetails from "./pages/public/home/detail";
 import NotFound from "./pages/public/errors/notFound";
 import SignIn from "./pages/public/auth/signIn";
 import PasswordReset from "./pages/public/auth/passwordReset";
@@ -80,9 +81,16 @@ const PageRoutes = [
 				],
 			},
 			{
-				path: "homeproducts",
-				name: "homeproducts",
-				element: <HomeProduct />,
+				path: "index",
+				name: "home.index",
+				element: <HomeIndex />,
+				children: [
+					{
+						path: ":id",
+						name: "index.detail",
+						element: <HomeDetails />,
+					},
+				],
 			},
 			{
 				path: "cart",

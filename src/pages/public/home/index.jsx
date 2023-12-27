@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
 
 import { action, fighting, kids, multiplayer, platformer, puzzle, racing, retro, shooting, sport, strategy } from '../../../utils/gameInfo';
-import Download from "./component"
+import Download from "./component.jsx"
 
 export default function Home() {
     const { t } = useTranslation("home");
@@ -117,7 +117,7 @@ export default function Home() {
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: <Download />,
+                Games: action,
             },
             {
                 id: "843762dc-8779-4624-9d1f-a54b3837b61f",
