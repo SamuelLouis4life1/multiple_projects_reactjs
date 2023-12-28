@@ -16,8 +16,8 @@ export default function EmailTemplate() {
 						<tbody>
 							<tr>
 								<td>
-									{/* <img src={logo} alt="Ecommerce App" className="logo" /> */}
-									<img src="{logo}" alt="Ecommerce App" className="logo" />
+									{/* <img src={logo} alt="Multiple Projects" className="logo" /> */}
+									<img src="{logo}" alt="Multiple Projects" className="logo" />
 								</td>
 								<td className="textRight">
 									<p className="m0">Pedido nº ??????</p>
@@ -144,7 +144,7 @@ export default function EmailTemplate() {
 					</p>
 					<br />
 					<p className="m0">Atenciosamente.</p>
-					<p className="m0 bold">Equipe Ecommerce App.</p>
+					<p className="m0 bold">Equipe Multiple Projects.</p>
 				</div>
 			</main>
 			<footer className="footer">
@@ -153,9 +153,9 @@ export default function EmailTemplate() {
 						<tbody>
 							<tr>
 								<td className="textCenter vTop" style={{width: "33.33%"}}>
-									<img src="{arroba}" alt="Ecommerce App" className="footerImg"/>
+									<img src="{arroba}" alt="Multiple Projects" className="footerImg"/>
 									<p className="mt1 mb0 bold italic">e-mail</p>
-									<p className="m0">suporte@Ecommerce App.com</p>
+									<p className="m0">suporte@Multiple Projects.com</p>
 								</td>
 								<td className="textCenter vTop" style={{width: "33.33%"}}>
 									<img src="{phone}" alt="&#128222;" className="footerImg"/>
@@ -177,7 +177,7 @@ export default function EmailTemplate() {
 						<tbody>
 							<tr>
 								<td className="textCenter vTop" >
-									<a className="siteFooter" href="http://www.Ecommerce App.com">www.Ecommerce App.com</a>
+									<a className="siteFooter" href="http://www.Multiple Projects.com">www.Multiple Projects.com</a>
 								</td>
 							</tr>
 						</tbody>

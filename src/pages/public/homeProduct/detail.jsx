@@ -320,15 +320,15 @@
 // 				<Col className={styles.plansFeatures}>
 
 // 					<div className={styles.plansTexts}>
-// 						<h3 className="text-left">Beneficios do Ecommerce App total individual</h3>
-// 						<p className="text-left">Beneficios do Ecommerce App total individual</p>
+// 						<h3 className="text-left">Beneficios do Multiple Projects total individual</h3>
+// 						<p className="text-left">Beneficios do Multiple Projects total individual</p>
 // 					</div>
 
 // 					<div className={styles.cardsFeatures}>
 // 						<Card className={styles.cards}>
 // 							<img className={styles.cardImgTop} variant="top" src="https://via.placeholder.com/16" />
 // 							<Card.Body>
-// 								<Card.Title className={styles.cardsTitle}>Ecommerce App passaporte</Card.Title>
+// 								<Card.Title className={styles.cardsTitle}>Multiple Projects passaporte</Card.Title>
 // 								<Card.Text>
 // 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
 // 								</Card.Text>

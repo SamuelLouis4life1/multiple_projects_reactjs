@@ -60,9 +60,9 @@ const PageRoutes = [
 			breadcrumb: false,
 			sidebar: false,
 			settingButton: false,
-			title: "Health - Ecommerce App",
+			title: "Health - Multiple Projects",
 		},
-		element: <span>Ecommerce App is Healthy!</span>,
+		element: <span>Multiple Projects is Healthy!</span>,
 	},
 	{
 		path: "",
@@ -73,7 +73,7 @@ const PageRoutes = [
 			breadcrumb: true,
 			settingButton: true,
 			sidebar: false,
-			title: "Ecommerce App",
+			title: "Multiple Projects",
 		},
 		element: <Home />,
 		children: [
@@ -123,8 +123,9 @@ const PageRoutes = [
 					header: false,
 					footer: false,
 					breadcrumb: false,
+					settingButton: false,
 					sidebar: false,
-					title: "Ecommerce App",
+					title: "Multiple Projects",
 				},
 				children: [
 					{
@@ -210,7 +211,7 @@ const PageRoutes = [
 											header: false,
 											footer: false,
 											breadcrumb: false,
-											title: "nf - Ecommerce App",
+											title: "nf - Multiple Projects",
 										},
 										element: <InvoicePage />
 									}
@@ -300,7 +301,7 @@ const PageRoutes = [
 					footer: false,
 					breadcrumb: false,
 					sidebar: false,
-					title: "Ecommerce App",
+					title: "Multiple Projects",
 				},
 				element: <EmailTemplate />,
 			},

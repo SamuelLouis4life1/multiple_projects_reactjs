@@ -57,11 +57,11 @@ function usePageBreadcrumb(value=true) {
     
 }
 
-function usePageTitle(value="Ecommerce App") {
+function usePageTitle(value="Multiple Projects") {
     useEffect(() => {
         document.title = value
         return () => {
-            document.title = "Ecommerce App"
+            document.title = "Multiple Projects"
         }
     }, [value])
     

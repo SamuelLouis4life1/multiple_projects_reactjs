@@ -77,7 +77,7 @@ export default function Header() {
 					<Container>
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Brand className={styles.logo} href="/">
-							<img src="/imgs/Ecommerce App-logo.svg" alt="Ecommerce App" />
+							<img src="/imgs/Multiple Projects-logo.svg" alt="Multiple Projects" />
 						</Navbar.Brand>
 						<Navbar.Collapse
 							className={styles.collapseArea}

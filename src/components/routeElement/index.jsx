@@ -12,7 +12,7 @@ export default function RouteElement({
         header: true,
         sidebar: false,
 		settingButton: true,
-        title: "Ecommerce App"
+        title: "Multiple Projects"
     }
 }) {
 	const pageCtx = useContext(PageSettingsContext);
@@ -31,7 +31,7 @@ export default function RouteElement({
 			pageCtx.setPageFooter(true);
 			pageCtx.setpageSettingButton(true);
 			pageCtx.setPageSidebar(false);
-			document.title = "Ecommerce App";
+			document.title = "Multiple Projects";
 		}
 	}, [pageCtx, pageSettings, routeItems]);
 

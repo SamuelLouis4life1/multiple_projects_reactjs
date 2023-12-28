@@ -14,7 +14,7 @@ function Footer() {
             <div className={styles.wrapper}>
                 <div>
                     <Link to="/" className={styles.logoLink}>
-                        <img src="/imgs/Ecommerce App-logo.svg" alt="Ecommerce App" />
+                        <img src="/imgs/Multiple Projects-logo.svg" alt="Multiple Projects" />
                     </Link>
                 </div>
                 <div className={styles.socialMedias}>

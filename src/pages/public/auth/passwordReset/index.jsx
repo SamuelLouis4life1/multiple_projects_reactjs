@@ -35,7 +35,7 @@ export default function PasswordReset() {
 		<div className={`${styles.loginContainer} position-relative`}>
 			<div className={`${styles.leftBar}`}>
 				<div className={`${styles.ball}`}></div>
-				<img src="/imgs/Ecommerce App-logo.svg" alt="Ecommerce App" />
+				<img src="/imgs/Multiple Projects-logo.svg" alt="Multiple Projects" />
 			</div>
 
 			<div className="position-absolute top-50 start-50 translate-middle">
