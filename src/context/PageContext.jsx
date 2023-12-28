@@ -17,7 +17,7 @@ export function PageSettingsProvider({ children }) {
   const [routeItems, setRouteItems] = useState([]);
 
   return (
-    <PageSettingsContext.Provider value={{ setPageHeader, setPageFooter, setPageSidebar, setPageBreadcrumb, setRouteItems }}>
+    <PageSettingsContext.Provider value={{ setPageHeader, setPageFooter, setPageSidebar, setPageBreadcrumb, setRouteItems, setpageSettingButton }}>
         <div className={styles.PageWrapper}>
             { pageHeader && <Header />}
             <div className={styles.PageWrapper2}>

@@ -11,6 +11,7 @@ export default function RouteElement({
         footer: true,
         header: true,
         sidebar: false,
+		settingButton: true,
         title: "Ecommerce App"
     }
 }) {
@@ -20,6 +21,7 @@ export default function RouteElement({
 		pageCtx.setPageBreadcrumb(pageSettings.breadcrumb);
 		pageCtx.setPageHeader(pageSettings.header);
 		pageCtx.setPageFooter(pageSettings.footer);
+		pageCtx.setpageSettingButton(pageSettings.settingButton);
 		pageCtx.setPageSidebar(pageSettings.sidebar);
 		document.title = pageSettings.title;
 		return () => {
@@ -27,6 +29,7 @@ export default function RouteElement({
 			pageCtx.setPageBreadcrumb(true);
 			pageCtx.setPageHeader(true);
 			pageCtx.setPageFooter(true);
+			pageCtx.setpageSettingButton(true);
 			pageCtx.setPageSidebar(false);
 			document.title = "Ecommerce App";
 		}

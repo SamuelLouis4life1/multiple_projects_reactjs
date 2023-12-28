@@ -23,6 +23,17 @@ function usePageFooter(value=true) {
     }, [value, setPageFooter])
 }
 
+function useSettingButton(value=true) {
+    const { setpageSettingButton } = useContext(PageSettingsContext)
+    
+    useEffect(() => {
+        setpageSettingButton(value)
+        return () => {
+            setpageSettingButton(true)
+        }
+    }, [value, setpageSettingButton])
+}
+
 function usePageSidebar(value=true) {
     const { setPageSidebar } = useContext(PageSettingsContext)
     
@@ -56,4 +67,4 @@ function usePageTitle(value="Ecommerce App") {
     
 }
 
-export { usePageHeader, usePageFooter, usePageSidebar, usePageTitle, usePageBreadcrumb };
+export { usePageHeader, usePageFooter, usePageSidebar, usePageTitle, usePageBreadcrumb, useSettingButton };
