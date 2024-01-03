@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "reac
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
-import { action, racing, strategy, retro, sport, fighting, kids,  } from '../../../utils/gameInfo';
+import { action, racing, strategy, retro, sport, fighting, kids } from '../../../utils/gameInfo';
 
 export default function Home() {
     const { t } = useTranslation("home");
@@ -169,7 +169,7 @@ export default function Home() {
                     <Col>
                         <Row>
                             <Col className="text-center">
-                                <p>{t("Our new offer allows you to try us for 3 months at our lowest possible price.")}</p>
+                                <p>{t("A small selection of my work.")}</p>
                             </Col>
                         </Row>
                         <HomeContainer categories={categories} />
