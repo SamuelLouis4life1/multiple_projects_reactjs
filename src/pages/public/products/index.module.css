@@ -1,0 +1,108 @@
+.offersBg{
+    background: rgb(233,243,237);
+    background: linear-gradient(180deg, var(--tc-light-blue) 0%, rgba(255,255,255,1) 75%); 
+}
+
+.zipInput{
+    display: inline-block;
+}
+
+.howItWorksSection, .ourSecretSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    
+}
+
+.howItWorksSection > h3, .ourSecretSection > h3 {
+    color: var(--tcText4);
+    font-size: 3.75rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-family: var(--tc-font2);
+}
+
+.howItWorksSection > div , .ourSecretSection > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.howItWorksCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.howItWorksCard > span {
+    align-self: start;
+    margin-bottom: -0.5rem;
+}
+
+.howItWorksCard > img {
+    width: 80px;
+    height: 80px;
+}
+
+.howItWorksCard > p {
+    margin: 0;
+}
+
+.ourSecretSection > h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ourSecretSection > p {
+    color: var(--tcText4);
+    margin-bottom: 1.5rem;
+}
+
+.ourSecretSectionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+.ourSecretSectionCard > img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+}
+
+.ourSecretSectionCard > span {
+    color: var(--tcText4);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.ourSecretSectionCard > p {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 992px) {
+    .howItWorksSection > div , .ourSecretSection > div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .howItWorksSection > div , .ourSecretSection > div {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

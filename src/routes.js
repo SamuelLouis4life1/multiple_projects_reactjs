@@ -78,18 +78,6 @@ const PageRoutes = [
 		element: <Home />,
 		children: [
 			{
-				path: "products",
-				name: "products.index",
-				element: <Products />,
-				children: [
-					{
-						path: ":id",
-						name: "products.detail",
-						element: <ProductDetail />,
-					},
-				],
-			},
-			{
 				path: "index",
 				name: "home.index",
 				element: <HomeIndex />,
@@ -98,6 +86,18 @@ const PageRoutes = [
 						path: ":id",
 						name: "index.detail",
 						element: <HomeDetails />,
+					},
+				],
+			},
+			{
+				path: "products",
+				name: "products.index",
+				element: <Products />,
+				children: [
+					{
+						path: ":id",
+						name: "products.detail",
+						element: <ProductDetail />,
 					},
 				],
 			},
