@@ -1,8 +1,9 @@
 .footerBottom {
     text-align: right;
-    
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
 }
-
 
 @media (max-width: 992px) {
     .footerBottom {
