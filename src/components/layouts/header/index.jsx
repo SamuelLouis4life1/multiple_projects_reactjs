@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { useTranslation } from 'react-i18next';
 import { BsCart3, BsPhone } from "react-icons/bs";
 import { GoSignOut } from "react-icons/go";
 import { RiUserLine, RiUserShared2Line } from "react-icons/ri";
@@ -9,7 +8,6 @@ import { AuthContext } from "../../../context/AuthContext";
 import { USER_ROLES } from "../../../utils/userRoles";
 import styles from "./index.module.css";
 import { withTranslation } from "react-i18next";
-import i18nInit from "../../../i18n"
 
 export function Header(props) {
 	const [scrollY, setScrollY] = useState(0);

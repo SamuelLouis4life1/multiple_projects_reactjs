@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import styles from './bottom.module.css';
 import { useTranslation } from "react-i18next";
 import { IoSettingsSharp } from "react-icons/io5";
+import DarkMode from '../darkMode';
 
 
 function SettingButton() {
@@ -29,6 +30,9 @@ function SettingButton() {
                 <Offcanvas.Body>
                     Some text as placeholder. In real life you can have the elements you
                     have chosen. Like, text, images, lists, etc.
+                    
+                    <hr />
+                    < DarkMode />
                 </Offcanvas.Body>
             </Offcanvas>
         </div>

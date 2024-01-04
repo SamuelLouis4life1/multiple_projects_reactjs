@@ -1,0 +1,70 @@
+:root {
+    --font-color: #333;
+    --font-color-light: rgb(73, 71, 71);
+    --background-color: #eee;
+    --background-color-light: rgb(255, 255, 255);
+    --link-color: cornflowerblue;
+  
+        /* Spinner */
+      --hue: 223;
+      --bg: hsl(var(--hue),10%,90%);
+      --fg: hsl(var(--hue),10%,10%);
+      --primary: hsl(var(--hue),90%,55%);
+      --trans-dur: 0.3s;
+  }
+  
+  [data-theme="dark"] {
+    --font-color: #eee;
+    --font-color-light: rgb(255, 255, 255);
+    --background-color: #333;
+    --background-color-light: rgb(73, 71, 71);
+    --link-color: lightblue;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+  }
+  
+  a {
+    color: var(--font-color-light);
+  }
+  
+  /* Custom Dark Mode Toggle Element */
+  
+  .toggleThemeWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 1rem;
+  }
+  
+  .toggleTheme {
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    width: 60px;
+  }
+  
+  .toggleTheme input {
+    display: none;
+  }
+  
+  .darkModeSvg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .rotateSvg {
+    transform: rotate(190deg);
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .toggleTheme {
+      position: relative;
+      display: inline-block;
+      height: 24px;
+      width: 40px;
+    }
+  }
