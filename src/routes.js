@@ -48,7 +48,13 @@ import CalculatorApp from "./pages/public/multipleProjects/calculatorApp"
 import WeatherApp from "./pages/public/multipleProjects/weatherApp"
 import TodoList from "./pages/public/multipleProjects/todoList"
 import SidebarMenu from "./pages/public/multipleProjects/sidebarMenu";
-
+import MessagingApp from "./pages/public/multipleProjects/messagingApp";
+import ProductivityApp from "./pages/public/multipleProjects/productivityApp";
+import EntertainmentApp from "./pages/public/multipleProjects/entertainmentApp"
+import SocialCards from "./pages/public/multipleProjects/socialCards"
+import GithubIssuesPage from "./pages/public/multipleProjects/githubIssuesPage"
+import TicTacToe from "./pages/public/multipleProjects/ticTacToe"
+import Stopwatch from "./pages/public/multipleProjects/stopwatch"
 //#endregion
 
 const PageRoutes = [
@@ -179,6 +185,41 @@ const PageRoutes = [
 						path: "sidebar-menu",
 						name: "sidebar.menu",
 						element: <SidebarMenu />,
+					},
+					{
+						path: "messaging-app",
+						name: "messaging.app",
+						element: <MessagingApp />,
+					},
+					{
+						path: "productivity-app",
+						name: "productivity.app",
+						element: <ProductivityApp />,
+					},
+					{
+						path: "Entertainment-app",
+						name: "Entertainment.app",
+						element: <EntertainmentApp />,
+					},
+					{
+						path: "social-cards-app",
+						name: "socialcards.app",
+						element: <SocialCards />,
+					},
+					{
+						path: "github-issues-page-app",
+						name: "githubissuespage.app",
+						element: <GithubIssuesPage />,
+					},
+					{
+						path: "tic-tac-toe-app",
+						name: "TicTacToe.app",
+						element: <TicTacToe />,
+					},
+					{
+						path: "stopwatch-app",
+						name: "stopwatch.app",
+						element: <Stopwatch />,
 					},
 				],
 			},

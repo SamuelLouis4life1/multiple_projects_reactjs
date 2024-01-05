@@ -1,7 +1,7 @@
 export const action = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "https://samuellouis4life1.github.io/portfolio/",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -241,7 +241,7 @@ export const sport = [
 export const fighting = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/messaging-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -250,7 +250,7 @@ export const fighting = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/productivity-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -259,7 +259,7 @@ export const fighting = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/entertainment-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -268,7 +268,7 @@ export const fighting = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/social-cards-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -277,7 +277,7 @@ export const fighting = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/github-issues-page-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -289,7 +289,7 @@ export const fighting = [
 export const kids = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/tic-tac-toe-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
@@ -298,7 +298,7 @@ export const kids = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
-        path: "multiple/calculator",
+        path: "multiple/stopwatch-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
