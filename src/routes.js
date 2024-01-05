@@ -47,6 +47,7 @@ import AdminUsers from "./pages/admin/users";
 import CalculatorApp from "./pages/public/multipleProjects/calculatorApp"
 import WeatherApp from "./pages/public/multipleProjects/weatherApp"
 import TodoList from "./pages/public/multipleProjects/todoList"
+import SidebarMenu from "./pages/public/multipleProjects/sidebarMenu";
 
 //#endregion
 
@@ -173,6 +174,11 @@ const PageRoutes = [
 						path: "todo-list",
 						name: "todolist",
 						element: <TodoList />,
+					},
+					{
+						path: "sidebar-menu",
+						name: "sidebar.menu",
+						element: <SidebarMenu />,
 					},
 				],
 			},
