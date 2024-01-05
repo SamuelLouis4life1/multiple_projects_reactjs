@@ -55,6 +55,26 @@ import SocialCards from "./pages/public/multipleProjects/socialCards"
 import GithubIssuesPage from "./pages/public/multipleProjects/githubIssuesPage"
 import TicTacToe from "./pages/public/multipleProjects/ticTacToe"
 import Stopwatch from "./pages/public/multipleProjects/stopwatch"
+import QuizApp from "./pages/public/multipleProjects/quizApp"
+import RecipeApp from "./pages/public/multipleProjects/recipeApp"
+import SocialMediaApp from "./pages/public/multipleProjects/socialMediaApp"
+import VideoCallApp from "./pages/public/multipleProjects/videoCallApp"
+import LyricSearchApp from "./pages/public/multipleProjects/lyricSearchApp"
+import NoteTakingApp from "./pages/public/multipleProjects/noteTakingApp"
+import PomodoroTimer from "./pages/public/multipleProjects/pomodoroTimer"
+import MusicPlayerApp from "./pages/public/multipleProjects/musicPlayerApp"
+import MovieSearchApp from "./pages/public/multipleProjects/movieSearchApp"
+import ExpenseTracker from "./pages/public/multipleProjects/expenseTracker"
+import ChatApp from "./pages/public/multipleProjects/chatApp"
+import VideoStreaming from "./pages/public/multipleProjects/videoStreaming"
+import ImageGallery from "./pages/public/multipleProjects/imageGallery"
+import MapApp from "./pages/public/multipleProjects/mapApp"
+import BlogApp from "./pages/public/multipleProjects/blogApp"
+import RealTimeMultiplayer from "./pages/public/multipleProjects/realTimeMultiplayer"
+import RealTimeMultiplayerApp from "./pages/public/multipleProjects/realTimeMultiplayerApp"
+import SnakeGameApp from "./pages/public/multipleProjects/snakeGameApp"
+import RealTimeMultiplayerChess from "./pages/public/multipleProjects/realTimeMultiplayerChess"
+import RandomQuoteGenerator from "./pages/public/multipleProjects/randomQuoteGenerator"
 //#endregion
 
 const PageRoutes = [
@@ -166,6 +186,7 @@ const PageRoutes = [
 					title: "Multiple project",
 				},
 				children: [
+					// https://blog.stackademic.com/40-react-project-ideas-for-beginners-to-advanced-99e699986d09
 					{
 						path: "calculator",
 						name: "calculator",
@@ -220,6 +241,107 @@ const PageRoutes = [
 						path: "stopwatch-app",
 						name: "stopwatch.app",
 						element: <Stopwatch />,
+					},
+					{
+						path: "quiz-app",
+						name: "quiz.app",
+						element: <QuizApp />,
+					},
+					{
+						path: "recipe-app",
+						name: "recipe.app",
+						element: <RecipeApp />,
+					},
+					{
+						path: "social-media-app",
+						name: "social-media.app",
+						element: <SocialMediaApp />,
+					},
+					{
+						path: "video-call-app",
+						name: "video-call.app",
+						element: <VideoCallApp />,
+					},
+					{
+						path: "lyric-search-app",
+						name: "lyric-search.app",
+						element: <LyricSearchApp />,
+					},
+					{
+						path: "note-taking-app",
+						name: "note-taking.app",
+						element: <NoteTakingApp />,
+					},
+					{
+						path: "pomodoro-timer-app",
+						name: "pomodoro-timer.app",
+						element: <PomodoroTimer />,
+					},
+					{
+						path: "music-player-app",
+						name: "music-player.app",
+						element: <MusicPlayerApp />,
+					},
+					{
+						path: "movie-search-app",
+						name: "movie-search.app",
+						element: <MovieSearchApp />,
+					},
+					{
+						path: "expense-tracker-app",
+						name: "expensetracker.app",
+						element: <ExpenseTracker />,
+					},
+					{
+						path: "chat-app",
+						name: "chat.app",
+						element: <ChatApp />,
+					},
+					{
+						path: "video-streaming-app",
+						name: "video-streaming.app",
+						element: <VideoStreaming />,
+					},
+					{
+						path: "image-gallery-app",
+						name: "image-gallery.app",
+						element: <ImageGallery />,
+					},
+					{
+						path: "map-app",
+						name: "map.app",
+						element: <MapApp />,
+					},
+					{
+						path: "blog-app",
+						name: "blog.app",
+						element: <BlogApp />,
+					},
+					{
+						// https://github.com/wass08/r3f-sims-online
+						path: "real-time-multiplayer",
+						name: "real-time-multiplayer.app",
+						element: <RealTimeMultiplayer />,
+					},
+					{
+						path: "real-time-multiplayer-app",
+						name: "real-time-multiplayer-app.app",
+						element: <RealTimeMultiplayerApp />,
+					},
+					{
+						path: "snake-game-app",
+						name: "snake-game.app",
+						element: <SnakeGameApp />,
+					},
+					{
+						path: "real-timne-multiplayer-chess-game",
+						name: "real-timne-multiplayer-chess-game.app",
+						element: <RealTimeMultiplayerChess />,
+					},
+					{
+						path: "random-quote-generator-app",
+						name: "random-quote-generator-app.app",
+						element: <RandomQuoteGenerator />,
 					},
 				],
 			},
