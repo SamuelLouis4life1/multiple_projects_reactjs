@@ -1,5 +1,16 @@
 {
     "translations": {
+        "navbar_header" : {
+            "home": "Home",
+            "project": "Project",
+            "contact": "Contact",
+            "dropdown_menu" : {
+                "languages": "Idiomas",
+                "languageEn": "English US",
+                "languagePt": "Português Brasil"
+            }
+
+        }, 
         "title": "Confirmação de Email Locate",
         "tokenLabel": "Informe o código de confirmação de email",
         "reSendEmail": "Reenviar código",
@@ -8,10 +19,6 @@
         "buttonLabel": "Confirmar",
         "successMessage": "Email confirmado com sucesso.",
         "couldntSendRequestMessage": "Não foi possivel enviar a requisição no momento, tente novamente mais tarde.",
-        "requestFaliureMessage": "Ocorreu um erro ao tentar enviar a confirmação, tente novamente mais tarde.",
-        "laguagesLabel": "Idiomas",
-        "languagePt": "Português Brasil",
-        "languageEn": "English US",
-        "fixedPhone": "Telefone fixo"
+        "requestFaliureMessage": "Ocorreu um erro ao tentar enviar a confirmação, tente novamente mais tarde."
     }
 }

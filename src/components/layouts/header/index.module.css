@@ -60,7 +60,7 @@
 .headerMain {
     padding: 1.5rem 0;
     font-weight: 600;
-    background-color: var(--tcBackground1);
+    background-color: var(--background-color-light);
 }
 
 .linkIcon {

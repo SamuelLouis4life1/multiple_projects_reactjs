@@ -8,6 +8,7 @@ import { AuthContext } from "../../../context/AuthContext";
 import { USER_ROLES } from "../../../utils/userRoles";
 import styles from "./index.module.css";
 import { withTranslation } from "react-i18next";
+import Darkmode from "../darkMode"
 
 export function Header(props) {
 	const [scrollY, setScrollY] = useState(0);
@@ -54,7 +55,7 @@ export function Header(props) {
 	const activeUrl = "#";
 	const loginUrl = "/auth/signIn";
 	const logoutRedirect = "/";
-	const accountUrl = user?.roles.some(role => [USER_ROLES.ADMIN, USER_ROLES.SELLER].includes(role)) ? "/admin/orders" :  "/account";
+	const accountUrl = user?.roles.some(role => [USER_ROLES.ADMIN, USER_ROLES.SELLER].includes(role)) ? "/admin/orders" : "/account";
 
 	return (
 		<>
@@ -95,17 +96,17 @@ export function Header(props) {
 						id="basic-navbar-nav"
 					>
 						<Nav className={styles.navCenter}>
-							<Nav.Link href="#home">{t("Mobility")}</Nav.Link>
-							<Nav.Link href="#link">{t("title")}</Nav.Link>
-							<Nav.Link href="#link">{t("Other Solutions")}</Nav.Link>
+							<Nav.Link href="#home">{t("navbar_header.home")}</Nav.Link>
+							<Nav.Link href="#link">{t("navbar_header.project")}</Nav.Link>
+							<Nav.Link href="#link">{t("navbar_header.contact")}</Nav.Link>
 						</Nav>
 						<Nav>
 							<NavDropdown
-								title={t("Help")}
+								title={t("navbar_header.dropdown_menu.languages")}
 								id="basic-nav-dropdown"
 							>
 								<NavDropdown.Item href="#action/3.1" onClick={() => onLanguageHandle('pt-BR')}>
-									{t("languagePt")}
+									{t("navbar_header.dropdown_menu.languagePt")}
 								</NavDropdown.Item>
 								<NavDropdown.Item href="#action/3.1" onClick={() => onLanguageHandle('en-US')} >
 									{t("languageEn")}
