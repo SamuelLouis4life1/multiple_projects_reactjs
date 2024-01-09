@@ -8,10 +8,21 @@
             "dropdown_menu" : {
                 "languages": "Languages",
                 "languageEn": "English US",
-                "fixedPhone": "Fixed Phone"
+                "languagePt": "Português Brasil"
             }
 
         }, 
+        "home_cards": {
+            "real_timne_game": {
+                "title": "real time multiplayer game",
+                "": ""
+            }
+
+        },
+        "games": {
+            "sportRacing": "sport Racing"
+
+        },
 
         "title": "Email Confirmation Locate",
 

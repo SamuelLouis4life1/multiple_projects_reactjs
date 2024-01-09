@@ -2,8 +2,8 @@
     "translations": {
         "navbar_header" : {
             "home": "Home",
-            "project": "Project",
-            "contact": "Contact",
+            "project": "Projeto",
+            "contact": "Contato",
             "dropdown_menu" : {
                 "languages": "Idiomas",
                 "languageEn": "English US",
@@ -11,6 +11,17 @@
             }
 
         }, 
+        "home_cards": {
+            "real_timne_game": {
+                "title": "real time multiplayer game",
+                "": ""
+            },
+
+            "card_itens": {
+
+            }
+
+        },
         "title": "Confirmação de Email Locate",
         "tokenLabel": "Informe o código de confirmação de email",
         "reSendEmail": "Reenviar código",

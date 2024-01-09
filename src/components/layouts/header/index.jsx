@@ -105,11 +105,11 @@ export function Header(props) {
 								title={t("navbar_header.dropdown_menu.languages")}
 								id="basic-nav-dropdown"
 							>
-								<NavDropdown.Item href="#action/3.1" onClick={() => onLanguageHandle('pt-BR')}>
+								<NavDropdown.Item onClick={() => onLanguageHandle('pt-BR')}>
 									{t("navbar_header.dropdown_menu.languagePt")}
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.1" onClick={() => onLanguageHandle('en-US')} >
-									{t("languageEn")}
+								<NavDropdown.Item onClick={() => onLanguageHandle('en-US')} >
+									{t("navbar_header.dropdown_menu.languageEn")}
 								</NavDropdown.Item>
 							</NavDropdown>
 						</Nav>
