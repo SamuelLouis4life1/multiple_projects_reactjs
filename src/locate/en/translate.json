@@ -13,15 +13,48 @@
 
         }, 
         "home_cards": {
-            "real_timne_game": {
-                "title": "real time multiplayer game",
+            "real_timne_app": {
+                "title": "Real Time App",
+                "description": "", 
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "single_page_app": {
+                "title": "Single Page App", 
+                "description": "",
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "advanced_projects": {
+                "title": "Advanced Projects",
+                "description": "",
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "intermediate_projects": {
+                "title": "Intermediate Projects",
+                "description": "",
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "games": {
+                "title": "Games",
+                "description": "",
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "simple_app": {
+                "title": "Simple App", 
+                "description": "",
+                "descriptionSubcategory": "",
+                "": ""
+            },
+            "simple_gallery_app": {
+                "title": "Simple Gallery App", 
+                "description": "",
+                "descriptionSubcategory": "",
                 "": ""
             }
-
-        },
-        "games": {
-            "sportRacing": "sport Racing"
-
         },
 
         "title": "Email Confirmation Locate",

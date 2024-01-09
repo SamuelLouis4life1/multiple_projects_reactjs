@@ -3,9 +3,10 @@ import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "reac
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
-import { action, racing, strategy, retro, sport, fighting, kids } from '../../../utils/gameInfo';
+import { simpleApp, realTimeApp, simpleGalleryApp, singleApp, advancedProjects, intermediateProjects, games } from '../../../utils/gameInfo';
+import { withTranslation } from "react-i18next";
 
-export default function Home() {
+export function Home() {
     const { t } = useTranslation("home");
     const [index, setIndex] = useState(0);
 
@@ -22,73 +23,73 @@ export default function Home() {
     const categoriesObjs = [
             {
                 id: "f1b7543c-590e-4949-b25c-5ac0ef3f6889",
-                title: "games.actionAdventure",
+                title: "home_cards.simple_app.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: action,
+                Games: simpleApp,
             },
             {
                 id: "843762dc-8779-4624-9d1f-a54b3837b61f",
-                title: "games.sportRacing",
+                title: "home_cards.real_timne_app.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: racing,
+                Games: realTimeApp,
             },
             {
                 id: "df1a5874-042c-499b-acfd-5a74334bdf3d",
-                title: "games.sports",
+                title: "home_cards.advanced_projects.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: sport,
+                Games: advancedProjects,
             },
             {
                 id: "bbbb5cd3-230e-4b20-bc8a-76274bfef7e8",
-                title: "games.fightingArcade",
+                title: "home_cards.intermediate_projects.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: fighting,
+                Games: intermediateProjects,
             },
             {
                 id: "0eac3ede-9347-49af-be62-036b6ac1f77c",
-                title: "games.kid",
+                title: "home_cards.games.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: kids,
+                Games: games,
             },
             {
                 id: "72d3bd33-9ce6-43a6-8ec1-b17b2b3c1452",
-                title: "games.retroClassic",
+                title: "home_cards.single_page_app.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: retro,
+                Games: singleApp,
             },
             {
                 id: "925f5059-89a0-4dd0-9f40-1099992ae70c",
-                title: "games.strategy",
+                title: "home_cards.simple_gallery_app.title",
                 details: [
                     "Click & Play",
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: strategy,
+                Games: simpleGalleryApp,
             },
         ]
         useEffect(() => {
@@ -180,3 +181,5 @@ export default function Home() {
 
     );
 }
+
+export default withTranslation()(Home)

@@ -1,4 +1,4 @@
-export const action = [
+export const simpleApp = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "https://samuellouis4life1.github.io/portfolio/",
@@ -46,7 +46,7 @@ export const action = [
     }
 ]
 
-export const racing = [
+export const realTimeApp = [
     {       
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/video-streaming-app",
@@ -94,7 +94,7 @@ export const racing = [
     }
 ]
 
-export const strategy = [
+export const simpleGalleryApp = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/blog-app",
@@ -142,7 +142,7 @@ export const strategy = [
     }
 ]
 
-export const retro = [
+export const singleApp = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/social-media-app",
@@ -190,7 +190,7 @@ export const retro = [
     }
 ]
 
-export const sport = [
+export const advancedProjects = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/music-player-app",
@@ -238,7 +238,7 @@ export const sport = [
     }
 ]
 
-export const fighting = [
+export const intermediateProjects = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/messaging-app",
@@ -286,7 +286,7 @@ export const fighting = [
     }
 ]
 
-export const kids = [
+export const games = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
         path: "multiple/tic-tac-toe-app",

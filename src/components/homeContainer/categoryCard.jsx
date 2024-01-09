@@ -23,7 +23,7 @@ export function CategoryCard({
                         <div ref={elementRef} className="gtm_click_gamecategory">
 
                             <Card.Body className="card-games-body">
-                                    <p className="fs-2 textMiddle emphasize text-uppercase">{title}</p>
+                                    <p className="fs-2 textMiddle emphasize text-uppercase">{t(title)}</p>
                             </Card.Body>
                         </div>
                     ) :
@@ -31,7 +31,7 @@ export function CategoryCard({
                             <div>
                                 <div>
                                     <Card.Title className="card-games-body">
-                                        <p className="fs-2 textMiddle emphasize text-uppercase">{title}</p>
+                                        <p className="fs-2 textMiddle emphasize text-uppercase">{t(title)}</p>
                                     </Card.Title>
                                 </div>
                             </div>
