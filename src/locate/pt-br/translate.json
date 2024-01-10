@@ -13,43 +13,43 @@
         }, 
         "home_cards": {
             "real_timne_app": {
-                "title": "Real Time App",
+                "title": "App em tempo real",
                 "description": "", 
                 "descriptionSubcategory": "",
                 "": ""
             },
             "single_page_app": {
-                "title": "Single Page App", 
+                "title": "App de página única", 
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""
             },
             "advanced_projects": {
-                "title": "Advanced Projects",
+                "title": "Projetos Avançados",
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""
             },
             "intermediate_projects": {
-                "title": "Intermediate Projects",
+                "title": "Projetos Intermediários",
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""
             },
             "games": {
-                "title": "Games",
+                "title": "Jogos",
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""
             },
             "simple_app": {
-                "title": "Simple App", 
+                "title": "App Simples", 
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""
             },
             "simple_gallery_app": {
-                "title": "Simple Gallery App", 
+                "title": "App de galeria", 
                 "description": "",
                 "descriptionSubcategory": "",
                 "": ""

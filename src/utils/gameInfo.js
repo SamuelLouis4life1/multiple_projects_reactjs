@@ -1,6 +1,7 @@
 export const simpleApp = [
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        disable: true,
         path: "https://samuellouis4life1.github.io/portfolio/",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
@@ -10,6 +11,7 @@ export const simpleApp = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        disable: true,
         path: "multiple/portfolio-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
@@ -19,6 +21,7 @@ export const simpleApp = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        disable: true,
         path: "multiple/todo-list",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
@@ -28,6 +31,7 @@ export const simpleApp = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        disable: true,
         path: "products",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
@@ -37,6 +41,7 @@ export const simpleApp = [
     },
     {
         id: "519cb0f7-f23e-4c1b-85c2-5bfd58c2a051",
+        disable: true,
         path: "multiple/sidebar-menu",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
