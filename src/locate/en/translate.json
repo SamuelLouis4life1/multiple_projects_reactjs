@@ -14,7 +14,7 @@
         }, 
         "home_cards": {
             "subtitle": "A small selection of my works.",
-            
+
             "real_timne_app": {
                 "title": "App em tempo real",
                 "description": "", 
@@ -74,7 +74,7 @@
             "intermediate_projects": {
                 "title": "Projetos Intermediários",
                 "description": "",
-                "descriptionSubcategory": "",
+                "descriptionSubcategory": "As one progresses to an intermediate level in React.js, a deeper understanding of state management emerges. Introducing Redux, a state management library, becomes pertinent at this stage. React Hooks, an addition to React in recent versions, plays a significant role in simplifying state management and lifecycle methods in functional components. The concept of component composition comes into play for better code organization and reusability. Higher-Order Components (HOCs) become a tool to abstract and share component logic across the application. Proficiency in making asynchronous API calls, error handling strategies, and testing practices with libraries like Jest and React Testing Library further solidify one's skills.",
                 "messagingApp": {
                     "title": "messaging app",
                     "description": ""
@@ -125,7 +125,7 @@
             "simple_app": {
                 "title": "App Simples", 
                 "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing",
-                "descriptionSubcategory": "React is a powerful JavaScript library for building user interfaces. It is becoming increasingly popular among web developers, and for good reason. React is easy to learn, but it is also powerful enough to build complex applications.",
+                "descriptionSubcategory": "When starting with React.js, it's crucial to establish a strong foundation in web development. This begins with a sound grasp of HTML and CSS, as React primarily deals with constructing user interfaces. Proficiency in JavaScript, especially modern ES6+ features like arrow functions and classes, is essential, given React's dependency on JavaScript. The initiation into React involves understanding fundamental concepts such as components, JSX, and the management of state and props. Building a basic React project and comprehending the component lifecycle are key milestones at this stage. Additionally, mastering basic event handling and navigation using React Router becomes imperative for crafting interactive and navigable applications.",
                 "calculator": {
                     "title": "calculator app", 
                     "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing."

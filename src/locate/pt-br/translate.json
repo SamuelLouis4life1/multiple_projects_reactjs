@@ -72,7 +72,7 @@
             "intermediate_projects": {
                 "title": "Projetos Intermediários",
                 "description": "",
-                "descriptionSubcategory": "",
+                "descriptionSubcategory": "À medida que avançamos para um nível intermediário em React.js, surge uma compreensão mais profunda do gerenciamento de estado. A introdução do Redux, uma biblioteca de gerenciamento de estado, torna-se pertinente nesta fase. React Hooks, uma adição ao React em versões recentes, desempenha um papel significativo na simplificação do gerenciamento de estado e métodos de ciclo de vida em componentes funcionais. O conceito de composição de componentes entra em ação para melhor organização e reutilização do código. Componentes de ordem superior (HOCs) tornam-se uma ferramenta para abstrair e compartilhar a lógica dos componentes em todo o aplicativo. A proficiência em fazer chamadas de API assíncronas, estratégias de tratamento de erros e práticas de teste com bibliotecas como Jest e React Testing Library solidificam ainda mais as habilidades.",
                 "messagingApp": {
                     "title": "messaging app",
                     "description": ""
@@ -123,7 +123,7 @@
             "simple_app": {
                 "title": "App Simples", 
                 "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing",
-                "descriptionSubcategory": "React is a powerful JavaScript library for building user interfaces. It is becoming increasingly popular among web developers, and for good reason. React is easy to learn, but it is also powerful enough to build complex applications.",
+                "descriptionSubcategory": "Ao começar com React.js, é crucial estabelecer uma base sólida em desenvolvimento web. Isso começa com um bom domínio de HTML e CSS, já que o React lida principalmente com a construção de interfaces de usuário. Proficiência em JavaScript, especialmente recursos modernos do ES6+, como funções de seta e classes, é essencial, dada a dependência do React em JavaScript. A iniciação no React envolve a compreensão de conceitos fundamentais como componentes, JSX e gerenciamento de estado e adereços. Construir um projeto React básico e compreender o ciclo de vida do componente são marcos importantes nesta fase. Além disso, dominar o manuseio e a navegação básicos de eventos usando o React Router torna-se fundamental para a criação de aplicativos interativos e navegáveis.",
                 "calculator": {
                     "title": "calculator app", 
                     "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing."

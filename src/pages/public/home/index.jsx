@@ -53,7 +53,7 @@ export function Home(props) {
                     "Click & Play",
                     "No Download required!",
                 ],
-                description: "games.descriptionSubcategory",
+                description: "home_cards.intermediate_projects.descriptionSubcategory",
                 Games: intermediateProjects,
             },
             {
