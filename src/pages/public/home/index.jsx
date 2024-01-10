@@ -1,23 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "react-bootstrap";
-import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
 import { simpleApp, realTimeApp, simpleGalleryApp, singlePageApp, advancedProjects, intermediateProjects, games } from '../../../utils/gameInfo';
 import { withTranslation } from "react-i18next";
 
-export function Home() {
-    const { t } = useTranslation("home");
+export function Home(props) {
+    const { t } = props;
+    
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
 
-    const [muted, setMuted] = useState(true);
-    const changeMuted = () => {
-        setMuted(state => !state)
-    }
     const [categories, setCategories] = useState([]);
     
     const categoriesObjs = [
@@ -48,7 +43,7 @@ export function Home() {
                     "Click & Play",
                     "No Download required!",
                 ],
-                description: "games.descriptionSubcategory",
+                description: "home_cards.advanced_projects.descriptionSubcategory",
                 Games: advancedProjects,
             },
             {
@@ -170,7 +165,7 @@ export function Home() {
                     <Col>
                         <Row>
                             <Col className="text-center">
-                                <p>{t("A small selection of my work.")}</p>
+                                <p>{t("home_cards.subtitle")}</p>
                             </Col>
                         </Row>
                         <HomeContainer categories={categories} />

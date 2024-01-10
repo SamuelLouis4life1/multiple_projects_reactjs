@@ -12,6 +12,7 @@
 
         }, 
         "home_cards": {
+            "subtitle": "Uma pequena seleção dos meus trabalhos.",
             "real_timne_app": {
                 "title": "App em tempo real",
                 "description": "", 
@@ -65,7 +66,7 @@
             "advanced_projects": {
                 "title": "Projetos Avançados",
                 "description": "",
-                "descriptionSubcategory": "",
+                "descriptionSubcategory": "Essas ideias de projetos de nível intermediário podem fornecer amplas oportunidades para explorar vários aspectos do ReactJS, integrar APIs, trabalhar com bancos de dados e criar experiências de usuário dinâmicas e envolventes. Lembre-se de se desafiar e se divertir enquanto constrói esses projetos!",
                 "": ""
             },
             "intermediate_projects": {

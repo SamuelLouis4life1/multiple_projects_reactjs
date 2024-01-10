@@ -13,47 +13,161 @@
 
         }, 
         "home_cards": {
+            "subtitle": "A small selection of my works.",
+            
             "real_timne_app": {
-                "title": "Real Time App",
+                "title": "App em tempo real",
                 "description": "", 
                 "descriptionSubcategory": "",
-                "": ""
+                "videoStreamingApp": {
+                    "title": "video streaming app",
+                    "description": "This project is a great way to learn about video streaming APIs in React."
+                },
+                "mapApp": {
+                    "title": "map app",
+                    "description": "Map app with Google Maps API: This project is a good way to learn about the Google Maps API and building a map application with React."
+                },
+                "realTimeMultiplayer": {
+                    "title": "real time multiplayer",
+                    "description": ""
+                },
+                "realTimeMultiplayerApp": {
+                    "title": "real time multiplayer app",
+                    "description": ""
+                },
+                "videoCallApp": {
+                    "title": "video call app",
+                    "description": "video call app"
+                }
             },
             "single_page_app": {
-                "title": "Single Page App", 
+                "title": "App de página única", 
                 "description": "",
                 "descriptionSubcategory": "",
-                "": ""
+                "lyricSearchAapp": {
+                    "title": "lyric search app",
+                    "description": ""
+                },
+                "noteTakingApp": {
+                    "title": "note taking app",
+                    "description": "Note-taking app: This project is a great way to learn about React components and props."
+                },
+                "pomodoroTimerApp": {
+                    "title": "pomodoro timer app",
+                    "description": "Pomodoro timer: This project is a bit more challenging than the stopwatch app, but it is a great way to learn about timers and functions in React."
+                },
+                "expenseTrackerApp": {
+                    "title": "expense tracker app",
+                    "description": "Expense tracker: This project is a bit more challenging than the movie search app, but it is a great way to learn about state management and forms in React."
+                },
+                "musicPlayerApp": {
+                    "title": "music player app",
+                    "description": ""
+                }
             },
             "advanced_projects": {
-                "title": "Advanced Projects",
+                "title": "Projetos Avançados",
                 "description": "",
-                "descriptionSubcategory": "",
+                "descriptionSubcategory": "These intermediate-level project ideas can provide you with ample opportunities to explore various aspects of ReactJS, integrate APIs, work with databases, and create dynamic and engaging user experiences. Remember to challenge yourself and have fun while building these projects!",
                 "": ""
             },
             "intermediate_projects": {
-                "title": "Intermediate Projects",
+                "title": "Projetos Intermediários",
                 "description": "",
                 "descriptionSubcategory": "",
-                "": ""
+                "messagingApp": {
+                    "title": "messaging app",
+                    "description": ""
+                },
+                "productivityApp": {
+                    "title": "productivity app",
+                    "description": ""
+                },
+                "githubIssuesPageApp": {
+                    "title": "github issues page app",
+                    "description": ""
+                },
+                "sidebarMenu": {
+                    "title": "sidebar menu",
+                    "description": ""
+                },
+                "weather": {
+                    "title": "weather",
+                    "description": ""
+                }
             },
             "games": {
-                "title": "Games",
+                "title": "Jogos",
                 "description": "",
                 "descriptionSubcategory": "",
-                "": ""
+
+                "tic-tac-toe-app": {
+                    "title": "tic tac toe app",
+                    "description": ""
+                },
+                "snake-game-app": {
+                    "title": "snake game app",
+                    "description": ""
+                },
+                "real-timne-multiplayer-chess-game": {
+                    "title": "real timne multiplayer chess game",
+                    "description": ""
+                },
+                "quiz-app": {
+                    "title": "quiz app",
+                    "description": "Quiz app: This project is a great way to learn about conditional rendering and state management in React."
+                },
+                "chat-app": {
+                    "title": "chat app",
+                    "description": "Chat app with WebSockets: This project is a bit more challenging than the note-taking app, but it is a great way to learn about real-time communication in React."
+                }
             },
             "simple_app": {
-                "title": "Simple App", 
-                "description": "",
-                "descriptionSubcategory": "",
+                "title": "App Simples", 
+                "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing",
+                "descriptionSubcategory": "React is a powerful JavaScript library for building user interfaces. It is becoming increasingly popular among web developers, and for good reason. React is easy to learn, but it is also powerful enough to build complex applications.",
+                "calculator": {
+                    "title": "calculator app", 
+                    "description": "This project will help you to learn about more advanced React concepts, such as event handling and routing."
+                },
+                "toDoList": {
+                    "title": "To do list app",
+                    "description": "This project will help you to learn about local storage in React."
+                },
+                "randomQuoteGenerator": {
+                    "title": "Random Quote Generator App",
+                    "description": "This project is a bit more challenging than the to-do list app, but it will help you to learn about functions, loops, and conditionals."
+                },
+                "stopwatchApp": {
+                    "title": "Stopwatch App",
+                    "description": "This project is a good way to learn about event handling in React."
+                },
                 "": ""
             },
             "simple_gallery_app": {
-                "title": "Gallery App", 
+                "title": "App de galeria", 
                 "description": "",
                 "descriptionSubcategory": "",
-                "": ""
+                "blog-app": {
+                    "title": "blog app",
+                    "description": "Blog app: This project is a good way to learn about routing, state management, and stylesheets in React."
+                },
+                "imageGalleryApp":{
+                    "title": "image gallery app",
+                    "description": "Image gallery with Cloudinary: This project is a good way to learn about image APIs in React."
+                },
+                "socialCardsApp": {
+                    "title": "social cards app",
+                    "description": ""
+                },
+                "recipeApp": {
+                    "title": "recipe app",
+                    "description": ""
+                },
+                "socialMediaApp": {
+                    "title": "social media app",
+                    "description": "Social media app with Firebase: This project is a great way to learn about Firebase and building a full-stack application with React."
+                }
             }
         },
 
