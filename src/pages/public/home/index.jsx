@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel, Button, Form, FloatingLabel } from "reac
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import HomeContainer from '../../../components/homeContainer'
-import { simpleApp, realTimeApp, simpleGalleryApp, singleApp, advancedProjects, intermediateProjects, games } from '../../../utils/gameInfo';
+import { simpleApp, realTimeApp, simpleGalleryApp, singlePageApp, advancedProjects, intermediateProjects, games } from '../../../utils/gameInfo';
 import { withTranslation } from "react-i18next";
 
 export function Home() {
@@ -28,7 +28,7 @@ export function Home() {
                     "Click & Play",
                     "No Download required!",
                 ],
-                description: "games.descriptionSubcategory",
+                description: "home_cards.simple_app.descriptionSubcategory",
                 Games: simpleApp,
             },
             {
@@ -79,7 +79,7 @@ export function Home() {
                     "No Download required!",
                 ],
                 description: "games.descriptionSubcategory",
-                Games: singleApp,
+                Games: singlePageApp,
             },
             {
                 id: "925f5059-89a0-4dd0-9f40-1099992ae70c",

@@ -70,7 +70,7 @@ export function ProductsContainer({ t, groupLimit = 4, categories = [] }) {
 							{
 								selectedCategory.Games.map((item) => (
 									<div className="d-grid gap-2">
-										<Link className="" to={item.path}>
+										<Link style={{ pointerEvents: item.pointerEvents }} to={item.path}>
 											<Card
 												key={item.id}
 												item={item}
