@@ -187,6 +187,7 @@ const PageRoutes = [
 				},
 				children: [
 					// https://blog.stackademic.com/40-react-project-ideas-for-beginners-to-advanced-99e699986d09
+					// https://medium.com/@rohan.fulzele/50-beginner-and-intermediate-level-react-project-ideas-%EF%B8%8F-809b396faa39
 					{
 						path: "calculator",
 						name: "calculator",
@@ -198,7 +199,7 @@ const PageRoutes = [
 						element: <WeatherApp />,
 					},
 					{
-						path: "todo-list",
+						path: "to-do-list",
 						name: "todolist",
 						element: <TodoList />,
 					},
