@@ -55,6 +55,7 @@ import SocialCards from "./pages/public/multipleProjects/socialCards"
 import GithubIssuesPage from "./pages/public/multipleProjects/githubIssuesPage"
 import TicTacToe from "./pages/public/multipleProjects/ticTacToe"
 import Stopwatch from "./pages/public/multipleProjects/stopwatch"
+import Travelopedia from "./pages/public/multipleProjects/travelopedia"
 import QuizApp from "./pages/public/multipleProjects/quizApp"
 import RecipeApp from "./pages/public/multipleProjects/recipeApp"
 import SocialMediaApp from "./pages/public/multipleProjects/socialMediaApp"
@@ -242,6 +243,11 @@ const PageRoutes = [
 						path: "stopwatch-app",
 						name: "stopwatch.app",
 						element: <Stopwatch />,
+					},
+					{
+						path: "travelopedia-app",
+						name: "travelopedia.app",
+						element: <Travelopedia />,
 					},
 					{
 						path: "quiz-app",

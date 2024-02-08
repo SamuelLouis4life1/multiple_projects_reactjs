@@ -41,8 +41,8 @@ export const simpleApp = [
     },
     {
         id: "75402b3c-0f4a-4440-96a7-720f7b5fd7df",
-        pointerEvents: 'none',
-        path: "",
+        pointerEvents: 'auto',
+        path: "multiple/travelopedia-app",
         title: "games.action.rogueStormers.title",
         description: "games.action.rogueStormers.description1",
         img: "https://images.blacknut.com/60edaf4c269e08483ecf65cb.jpg",
