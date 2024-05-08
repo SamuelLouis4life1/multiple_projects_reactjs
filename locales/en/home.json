@@ -1,0 +1,15 @@
+{
+    "title": "Email Confirmation",
+    "tokenLabel": "Enter Email confirmation code",
+    "reSendEmail": "Resend Code",
+    "reSendEmailSuccess": "Email confirmation code sent successfully.",
+    "reSendEmailFail": "An error occurred while trying to send the email confirmation code, please try again later.",
+    "buttonLabel": "Confirm",
+    "successMessage": "Email confirmed successfully.",
+    "couldntSendRequestMessage": "Unable to send request at this time, please try again later.",
+    "requestFaliureMessage": "An error occurred while trying to send confirmation, please try again later.",
+    "laguagesLabel": "Languages",
+    "languagePt": "Portuguese Brazil",
+    "languageEn": "English US",
+    "fixedPhone": "Fixed Phone"
+}

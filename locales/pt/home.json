@@ -1,0 +1,15 @@
+{
+    "title": "Confirmação de Email",
+    "tokenLabel": "Informe o código de confirmação de email",
+    "reSendEmail": "Reenviar código",
+    "reSendEmailSuccess": "Código de confirmação de email enviado com sucesso.",
+    "reSendEmailFail": "Ocorreu um erro ao tentar enviar o código de confirmação de email tente novamente mais tarde.",
+    "buttonLabel": "Confirmar",
+    "successMessage": "Email confirmado com sucesso.",
+    "couldntSendRequestMessage": "Não foi possivel enviar a requisição no momento, tente novamente mais tarde.",
+    "requestFaliureMessage": "Ocorreu um erro ao tentar enviar a confirmação, tente novamente mais tarde.",
+    "laguagesLabel": "Idiomas",
+    "languagePt": "Português Brasil",
+    "languageEn": "English US",
+    "fixedPhone": "Telefone fixo"
+}
