@@ -57,11 +57,11 @@ export function AuthProvider({ children }) {
 	};
 
 	const getUserAreaPath = () => {
-		if (!user) return "/";
+		if (!user) return "/multiple_projects_reactjs";
 		if (hasRoles(USER_ROLES.ADMIN)) return "/admin";
 		if (hasRoles(USER_ROLES.SELLER)) return "/admin";
 		if (hasRoles(USER_ROLES.USER)) return "/account";
-		return "/";
+		return "/multiple_projects_reactjs";
 	};
 
 	return (

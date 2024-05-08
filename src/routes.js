@@ -93,7 +93,7 @@ const PageRoutes = [
 		element: <span>Multiple Projects is Healthy!</span>,
 	},
 	{
-		path: "",
+		path: "/multiple_projects_reactjs",
 		name: "home",
 		pageSettings: {
 			header: true,

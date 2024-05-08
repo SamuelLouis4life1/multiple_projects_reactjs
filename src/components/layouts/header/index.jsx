@@ -54,7 +54,7 @@ export function Header(props) {
 
 	const activeUrl = "#";
 	const loginUrl = "/auth/signIn";
-	const logoutRedirect = "/";
+	const logoutRedirect = "/multiple_projects_reactjs";
 	const accountUrl = user?.roles.some(role => [USER_ROLES.ADMIN, USER_ROLES.SELLER].includes(role)) ? "/admin/orders" : "/account";
 
 	return (
@@ -88,7 +88,7 @@ export function Header(props) {
 			>
 				<Container>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Navbar.Brand className={styles.logo} href="/">
+					<Navbar.Brand className={styles.logo} href="/multiple_projects_reactjs">
 						<img src="/imgs/Multiple Projects-logo.svg" alt="Multiple Projects" />
 					</Navbar.Brand>
 					<Navbar.Collapse
